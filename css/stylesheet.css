@@ -11,6 +11,11 @@ html {
   position: relative;
   z-index: 1;
 }
+.title {
+  color:white;
+  font-family:white;
+}
+
 p.title{
   color: white;
   font-family: verdana;
@@ -110,6 +115,10 @@ a.navbar:link, a.navbar:visited {
 
 a.navbar:hover, a.navbar:active {
   background-color: #242424;
+}
+
+.faceImg {
+  border-radius:50%;
 }
 
 .faceImg:hover{
