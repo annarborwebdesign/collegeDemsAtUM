@@ -1,25 +1,25 @@
+/*GENERAL*/
 html, body {
   height: 100%;
+  background-color:black;
+  font-family:Helvetica;
+  color:white;
 }
 
 html {
   overflow-x: hidden;
 }
 
-.head{
+.head {
   margin:auto;
   position: relative;
   z-index: 1;
 }
+
 .title {
   color:white;
-  font-family:white;
-}
-
-p.title{
-  color: white;
-  font-family: verdana;
-  font-size:50px;
+  font-family:verdana;
+  font-size:5em;
 }
 
 img.Youseph{
@@ -117,14 +117,6 @@ a.navbar:hover, a.navbar:active {
   background-color: #242424;
 }
 
-.faceImg {
-  border-radius:50%;
-}
-
-.faceImg:hover{
-  -webkit-filter: grayscale(75%);
-}
-
 ul#navigation {
   position: fixed;
   bottom: 0;
@@ -141,9 +133,147 @@ ul#navigation li {
   list-style: none;
 }
 
-.committeeAbout{
-  font-family: Arial;
-  font-size: 30px;
-  width: 80%;
-
+th.committeeTitle {
+  font-size:25px;
 }
+
+.committeeAbout {
+  font-size:20px;
+}
+
+/*HOME*/
+
+
+/*LEADERSHIP*/
+.faceImg {
+  border-radius:50%;
+}
+
+.faceImg:hover{
+  -webkit-filter: grayscale(75%);
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color:grey;
+}
+
+#section1{
+  padding-top:20px;
+  height:600px;
+  color: #fff;
+  background-color: black;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-image: url("../img/Cover.png");
+}
+#section2{
+  padding-top:30px;
+  height:350px;
+  color: #fff;
+  background-color: black
+}
+#section2half{
+  padding-top:30px;
+  height:350px;
+  color: #fff;
+  background-color: #008CBA
+}
+#section6 {
+  padding-top:10px;
+  height:80px;
+  color: #fff;
+  background-color: black
+}
+
+
+/*FEM*/
+#section1-fem{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-image: url("../img/fem/femCover.jpg");
+  padding-top:10px;
+  height:550px;
+}
+#section2-fem {
+  padding-top:10px;
+  height:600px;
+}
+
+
+/*JUST*/
+#section1-just{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-image: url("../img/just/justCover.jpg");
+  padding-top:10px;
+  height:550px;
+  color: #fff;
+  background-color: black;
+}
+#section2-just{
+  padding-top:10px;
+  height:500px;
+}
+
+
+/*ENVIRO*/
+#section1-enviro{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-image: url("../img/enviro/environCover.jpg");
+  padding-top:10px;
+  height:550px;
+}
+#section2-enviro {
+  padding-top:10px;
+  height:350px;
+}
+
+/*Stonewall*/
+#section1-stonewall{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-image: url("../img/stonewall/stonewallCover.jpg");
+  padding-top:10px;
+  height:550px;
+}
+#section2-stonewall {
+  padding-top:10px;
+  height:400px;
+  width:85%;
+}
+
+
+/*EVENTS*/
