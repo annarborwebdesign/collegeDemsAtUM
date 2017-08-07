@@ -216,7 +216,9 @@ th.committeeTitle {
 }
 #section2-fem {
   padding-top:10px;
-  height:600px;
+  height:500px;
+  width:80%;
+  margin:auto;
 }
 
 
@@ -231,12 +233,12 @@ th.committeeTitle {
   background-image: url("../img/just/justCover.jpg");
   padding-top:10px;
   height:550px;
-  color: #fff;
-  background-color: black;
 }
 #section2-just{
   padding-top:10px;
   height:500px;
+  width:80%;
+  margin:auto;
 }
 
 
@@ -254,7 +256,9 @@ th.committeeTitle {
 }
 #section2-enviro {
   padding-top:10px;
-  height:350px;
+  height:500px;
+  width:80%;
+  margin:auto;
 }
 
 /*Stonewall*/
@@ -271,8 +275,9 @@ th.committeeTitle {
 }
 #section2-stonewall {
   padding-top:10px;
-  height:400px;
-  width:85%;
+  height:500px;
+  width:80%;
+  margin:auto;
 }
 
 
